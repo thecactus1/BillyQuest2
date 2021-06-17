@@ -1,0 +1,3 @@
+billy animates p1
+wait input
+billy animates "p1"

@@ -1,0 +1,43 @@
+<values>
+mspeed = 4
+name = Billy
+collision = true
+movable = true
+decellerate = 5
+vspeed = 4
+rspeed = 7
+player = true
+active = true
+jspeed = 0.5
+<attacks>
+(punch)
+animation = p1
+speed = 10
+combo = L
+(punch2)
+animation = p2
+speed = 10
+combo = L-L
+(punch3)
+xsp = 1
+animation = p3
+speed = 10	
+combo = L-L-L
+(sting1)
+animation = sting1
+speedtime = 0.5
+xsp = 10
+speed = 5
+combo = >->-l 
+chain = sting2
+cancel = True
+(sting2)
+animation = sting2
+xsp = 0
+speed = 3
+combo = >->-l-l
+(sting2)
+animation = sting2
+xsp = 0
+speed = 3
+combo = sting2
